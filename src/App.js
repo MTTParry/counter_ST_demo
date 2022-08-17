@@ -14,9 +14,9 @@ function App() {
 
   return (
     <div className="App">
-      <button>-</button>
+      <button onClick={lowerValue}>-</button>
       <span>{value}</span>
-      <button>+</button>
+      <button onClick={upValue}>+</button>
     </div>
   );
 }
