@@ -18,7 +18,7 @@ function App() {
   }
 
   function divide5() {
-    setValue(value /5);
+    setValue(value / 5);
   }
 
   return (
@@ -26,6 +26,11 @@ function App() {
       <button onClick={lowerValue}>-</button>
       <span>{value}</span>
       <button onClick={upValue}>+</button>
+      <br />
+      <hr />
+      <br />
+      <button onClick={divide2}>÷2</button>
+      <button onClick={divide5}>÷5</button>
     </div>
   );
 }
