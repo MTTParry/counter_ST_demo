@@ -12,6 +12,15 @@ function App() {
     setValue(value + 1);
   }
 
+  //divide
+  function divide2() {
+    setValue(value / 2);
+  }
+
+  function divide5() {
+    setValue(value /5);
+  }
+
   return (
     <div className="App">
       <button onClick={lowerValue}>-</button>
